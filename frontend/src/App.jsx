@@ -128,26 +128,26 @@ export default function App() {
     return (
       <div className="w-full max-w-md mx-auto p-4 min-h-screen flex flex-col items-center justify-center bg-gray-50 text-gray-900">
         <div className="bg-white shadow-xl rounded-2xl p-8 w-full flex flex-col gap-6 text-center">
-          <h1 className="text-3xl font-extrabold text-blue-600 mb-2">Manikyapriya Agencies</h1>
-          <p className="text-gray-500 mb-6">Select your portal to continue (Demo Mode)</p>
+          <h1 className="text-3xl font-extrabold text-indigo-600 mb-2">Manikyapriya Agencies</h1>
+          <p className="text-slate-500 mb-6 font-medium">Select your portal to continue (Demo Mode)</p>
           
           <button 
             onClick={() => handleDemoLogin('owner')}
-            className="w-full py-4 px-6 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl transition-all shadow-md active:scale-95"
+            className="w-full py-4 px-6 bg-slate-900 hover:bg-slate-800 text-white font-bold rounded-xl transition-all shadow-[0_4px_14px_0_rgb(0,0,0,0.1)] active:scale-95 tracking-wide"
           >
             Enter Owner Portal
           </button>
           
           <button 
              onClick={() => setRole('operator_selection')}
-            className="w-full py-4 px-6 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-xl transition-all shadow-md active:scale-95"
+            className="w-full py-4 px-6 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-xl transition-all shadow-[0_4px_14px_0_rgb(79,70,229,0.39)] active:scale-95 tracking-wide"
           >
             Enter Operator Portal
           </button>
           
           <button 
             onClick={() => setRole('salesman_selection')}
-            className="w-full py-4 px-6 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-xl transition-all shadow-md active:scale-95"
+            className="w-full py-4 px-6 bg-white border-2 border-slate-200 hover:border-indigo-300 hover:bg-indigo-50 text-slate-800 hover:text-indigo-700 font-bold rounded-xl transition-all shadow-sm active:scale-95 tracking-wide"
           >
             Enter Salesman Portal
           </button>
